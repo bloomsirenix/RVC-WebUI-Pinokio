@@ -28,7 +28,7 @@ module.exports = {
       method: "local.set",
       params: {
         // the input.event is the regular expression match object from the previous step
-        url: "{{input.event[0]}}"
+        url: "http://localhost:7897"
       }
     }
   ]
